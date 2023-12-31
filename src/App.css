@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.dark .signature {
+  filter: invert(15%) sepia(82%) saturate(5843%) hue-rotate(172deg) brightness(95%) contrast(88%);
+}

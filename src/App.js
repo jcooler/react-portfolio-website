@@ -4,6 +4,7 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import { FaLinkedinIn } from "react-icons/fa6";
 import { GrGithub } from "react-icons/gr";
 import { IoMdMail } from "react-icons/io";
+import signature from "./images/signature.svg";
 import jon from "./images/AvatarMaker.png";
 import about from "./images/about.png";
 import code from "./images/code.png";
@@ -22,7 +23,7 @@ function App() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl dark:text-teal-700">Jon Cooler</h1>
+          <img className="signature" src={signature} alt="jon cooler" width={150} height={150} />
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-teal-700" />
@@ -38,9 +39,9 @@ function App() {
           </ul>
         </nav>
         <div className="text-center p-10">
-          <h2 className="text-5xl py-2 font-medium md:text-6xl text-teal-700">Jon Cooler</h2>
-          <h3 className="text-2xl py-2 md:text-3xl dark:text-teal-700">Front-end Developer.</h3>
-          <p className="text-md py-5 leading-8 text-gray-700 md:text-xl max-w-2xl mx-auto dark:text-teal-700">
+          <h2 className="text-5xl py-2 font-medium md:text-6xl text-teal-700 select-none">Jon Cooler</h2>
+          <h3 className="text-2xl py-2 md:text-3xl dark:text-teal-700 select-none">Front-end Developer.</h3>
+          <p className="text-md py-5 leading-8 text-gray-700 md:text-xl max-w-2xl mx-auto dark:text-teal-700 select-none">
           Enthusiastic Front-End Developer eager to contribute to team success through collaboration, hard work, attention to detail
           and excellent organizational skills. Proficient in utilizing HTML5, CSS3, JavaScript, and multiple libraries and frameworks to create dynamic and engaging user interfaces.
           </p>
@@ -56,7 +57,7 @@ function App() {
         <IoMdMail alt="Mail"/>
         </a>
         </div>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-700 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+        <div className="relative mx-auto bg-gradient-to-b from-teal-700 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 select-none">
         <img src={jon} alt="me" layout="fill" objectFit="cover" />
         </div>
       </section>
