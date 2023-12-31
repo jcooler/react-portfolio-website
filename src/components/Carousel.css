@@ -42,3 +42,21 @@
   color: rgb(17, 94, 89);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 767px) {
+  .carousel {
+    height: auto;
+  }
+
+  .carouselInner {
+    flex-direction: row;
+    height: 400px;
+  }
+
+  .carouselInner .left,
+  .carouselInner .center,
+  .carouselInner .right {
+    flex: 5%;
+    padding: 60px; /* Add some padding for better spacing */
+  }
+}

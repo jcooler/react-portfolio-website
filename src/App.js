@@ -124,7 +124,7 @@ function App() {
             Projects
           </h3>
         </div>
-        <div className="shadow-lg dark:shadow-teal-700 w-[70%] m-auto">
+        <div className="shadow-lg dark:shadow-teal-700 m-auto">
         <Carousel/>
         </div>
         <div className="mt-8 ">
