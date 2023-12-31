@@ -77,7 +77,7 @@ function App() {
           Eventually, I got a lot of compliments from my fellow students in High School and a lot of my friends and other students wanted me to help them with their pages.
           I "developed" dozens of pages by creating custom backgrounds with Photoshop and illustrator,hosted the images on Photobucket, and added or subtracted various 
           things from the pages to give each "client" a handcrafted experience. Since then, I have used various languages, frameworks, and libraries to achieve the exact same thing!
-          </p>
+          </p> 
         </div>
         <div className="text-center shadow-lg p-10 rounded-xl my-10 basis-1/3 dark:shadow-teal-700">
           <img src={code} alt="code" width={100} height={100} />
